@@ -2,15 +2,15 @@
 
 ## Overview
 
-The Smart City Management System is a Java-based desktop application designed to improve the management and accessibility of essential city services through a centralized digital platform. The project focuses on simplifying urban service management by integrating different smart city functionalities into a single user-friendly system.
+The Smart City Management System is a Java-based web application developed to digitally manage and simplify various city services through a centralized platform. The project aims to improve urban service management by providing an efficient, secure, and user-friendly system for handling smart city operations.
 
-The application is developed using Java Swing for the graphical user interface, JDBC for database connectivity, and MySQL for efficient data storage and management.
+The application is developed using JSP, Servlets, JDBC, and MySQL with an interactive web-based interface.
 
 ---
 
 # Objective
 
-The main objective of this project is to provide a smart and efficient solution for managing city-related services digitally. The system aims to reduce manual work, improve service accessibility, and enhance communication between citizens and city management authorities.
+The objective of this project is to provide a smart digital solution for managing city-related services efficiently. The system helps reduce manual processes and improves accessibility of city services for users.
 
 ---
 
@@ -19,10 +19,10 @@ The main objective of this project is to provide a smart and efficient solution 
 - User Registration and Login
 - Smart City Service Management
 - Complaint Management System
-- City Information Access
+- City Information Management
 - Database Connectivity using JDBC
-- User-Friendly Desktop Interface
-- Secure Data Handling
+- Interactive Web Interface
+- Secure User Authentication
 - Efficient Record Management
 
 ---
@@ -30,10 +30,12 @@ The main objective of this project is to provide a smart and efficient solution 
 # Technologies Used
 
 ## Frontend
-- Java Swing
+- HTML
+- CSS
+- JSP
 
 ## Backend
-- Java
+- Java Servlets
 
 ## Database
 - MySQL
@@ -41,18 +43,11 @@ The main objective of this project is to provide a smart and efficient solution 
 ## Connectivity
 - JDBC
 
+## Server
+- Apache Tomcat
+
 ## IDE Used
-- NetBeans / IntelliJ IDEA
-
----
-
-# System Modules
-
-- Authentication Module
-- User Management
-- Complaint Management
-- Service Information Module
-- Database Management Module
+- Eclipse / IntelliJ IDEA
 
 ---
 
@@ -61,10 +56,8 @@ The main objective of this project is to provide a smart and efficient solution 
 ```text
 Smart-City-Management-System/
 │
+├── WebContent/
 ├── src/
-├── lib/
-├── assets/
 ├── screenshots/
-├── smartcity.sql
 ├── README.md
 └── .gitignore
